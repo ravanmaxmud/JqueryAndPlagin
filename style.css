@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+header{
+    background-color: #212529;
+    padding: 10px 10px;
+}
+.nava{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nava img{
+    width: 20%;
+    border-radius: 100%;
+}
+.text li{
+    color: aliceblue;
+    list-style: none;
+    font-size: 20px;
+    margin-left: 50px;
+}
+.text ul{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.drop ul{
+    z-index: 1;
+}
+.drop li{
+  color: rebeccapurple;
+  list-style: none;
+}
+
+.drop {
+    position: relative;
+}
+
+.homie{
+    position: absolute;
+    top: 65px;
+    right: 205px;
+    background-color: black;
+}
+.aboutie{
+    position: absolute;
+    top: 65px;
+    right: 105px;
+    background-color: black;
+}
+
+.contactie{
+
+    top: 65px;
+    right: 0px;
+    background-color: black;
+    position: absolute;
+}
+.slide img{
+    width: 100%;
+    height: 800px;
+    object-fit: cover;
+}
+.slick-next{
+right:30px !important;
+}
+.slick-prev{
+    left: 30px !important;
+    z-index: 1;
+}
